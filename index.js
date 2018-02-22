@@ -13,7 +13,6 @@ fs.readdirSync(testFolder).forEach(file => {
 	var dimensions = sizeOf(path.join(testFolder, file));
 	console.log(`<area x="${-dimensions.width/2}" y="${-dimensions.height/2}" w="${dimensions.width}" h="${dimensions.height}">`);
   }
-  
 })
 
 

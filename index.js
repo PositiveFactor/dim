@@ -21,7 +21,7 @@ if(process.argv.length >= 3){
 	}
 }
 else{
-	//dim();
+	dim();
 }
 
 function loader(isInit){
